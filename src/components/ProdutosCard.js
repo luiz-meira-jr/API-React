@@ -1,4 +1,4 @@
-import '../components/css/produtos.css';
+import '../pages/css/produtos.css';
 import { Link } from 'react-router-dom';
 
 function ProdutosCard(props){

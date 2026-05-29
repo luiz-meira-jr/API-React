@@ -13,16 +13,20 @@ import Erro from './pages/Erro.js'
 function RoutesApp(){
   return(
     <BrowserRouter>
-    <Header/>
-      <Routes>
-        <Route path="/sobre" element={ <Sobre/> }/>
-        <Route path='/contato' element={ <Contato/> }/>
-        <Route path='/produtos/:id' element={ <DetalheProd/> }/>
-        <Route path='/' element={ <Produtos/> }/>
-
-        <Route path='*' element={ <Erro/> }/>
-      </Routes>
+    <div className='app'>
+      <Header/>
+      <main>
+        <Routes>
+          <Route path="/sobre" element={ <Sobre/> }/>
+          <Route path='/contato' element={ <Contato/> }/>
+          <Route path='/produtos/:id' element={ <DetalheProd/> }/>
+          <Route path='/' element={ <Produtos/> }/>
+          <Route path='*' element={ <Erro/> }/>
+        </Routes>
+      </main>
       <Footer/>
+    </div>
+    
     </BrowserRouter>
   )
 }

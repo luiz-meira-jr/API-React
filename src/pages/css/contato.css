@@ -1,0 +1,82 @@
+.contato{
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    padding: 40px 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+
+.contato h1{
+    font-size: 40px;
+
+    color: #222;
+}
+
+
+.contato p{
+    color: #555;
+
+    line-height: 1.7;
+}
+
+
+.contato-links{
+    display: flex;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+    margin-top: 10px;
+}
+
+
+.contato-links a{
+    background-color: #111;
+
+    color: white;
+
+    padding: 12px 20px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+
+.contato-links a:hover{
+    background-color: #333;
+}
+
+
+.contato-info{
+    margin-top: 20px;
+}
+
+
+.contato-info h2{
+    margin-bottom: 15px;
+
+    color: #222;
+}
+
+
+.contato-info ul{
+    padding-left: 20px;
+}
+
+
+.contato-info li{
+    margin-bottom: 10px;
+
+    color: #555;
+}

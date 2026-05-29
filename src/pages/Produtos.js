@@ -1,6 +1,7 @@
 import { useEffect, useState,  } from 'react';
 import ProdutosCard from '../components/ProdutosCard'
-import '../components/css/produtos.css'
+import '../pages/css/produtos.css'
+import '../components/css/global.css'
 
 function Produtos(){
 

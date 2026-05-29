@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import '../components/css/global.css'
 
 function Erro(){
     return(
