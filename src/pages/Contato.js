@@ -3,7 +3,7 @@ import '../components/css/produtos.css'
 function Contato(){
     return(
         <div>
-            <h1>Sobre</h1> <br/>
+            <h1>Contato</h1> <br/>
         </div>
     )
 }
