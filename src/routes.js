@@ -5,7 +5,7 @@ import Produtos from './pages/Produtos.js'
 import Header from './components/Header.js'
 import Footer from './components/Footer.js';
 import Contato from './pages/Contato.js';
-import DetalheProd from './components/Produtos/DetalheProduto.js';
+import DetalheProd from './pages/produtos/DetalheProduto.js';
 
 import Erro from './pages/Erro.js'
 

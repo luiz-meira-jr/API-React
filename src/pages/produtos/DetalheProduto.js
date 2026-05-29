@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-
 import { useParams } from 'react-router-dom';
+import '../css/detalheProduto.css';
 
 function DetalheProd(){
 
@@ -26,16 +26,20 @@ function DetalheProd(){
     }
 
     return(
-        <div>
-            <img
+        <div className='detalhe-container'>
+            <div className='detalhe-imagem'>
+                <img
                 src={produto.image}
                 alt={produto.title}
                 width='200'
             />
-            <h1>{produto.title}</h1>
-            <h2>R$ {produto.price}</h2>
-            <p>{produto.description}</p>
-            <small>Categoria: {produto.category}</small>
+            </div>
+            <div className='detalhe-info'>
+                <h1>{produto.title}</h1>
+                <h2>R$ {produto.price.toFixed(2)}</h2>
+                <p>{produto.description}</p>
+                <small><strong>Categoria: </strong>{produto.category}</small> 
+            </div>
         </div>
     )
 }
