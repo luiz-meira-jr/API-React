@@ -6,7 +6,7 @@ function Footer(){
     return(
         <footer className='footer'>
             <div className='footer-links'>
-                <Link to='/'>Início</Link>
+                <Link to='/'>Inicio</Link>
                 <Link to='/sobre'>Sobre</Link>
                 <Link to='/contato'>Contato</Link>
             </div>
